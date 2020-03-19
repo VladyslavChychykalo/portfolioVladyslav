@@ -1,0 +1,28 @@
+.headerBackground {
+  margin: 0;
+  /* width: 100%; */
+  height: 100vh;
+  background-image: url(../../assets/img/headerWrapper.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.headerWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* width: 100%; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerWrapper p:nth-child(1) {
+  color: #fff;
+  font-size: 90px;
+}
+
+.headerWrapper p:nth-child(2) {
+  color: #fff;
+  font-size: 50px;
+}

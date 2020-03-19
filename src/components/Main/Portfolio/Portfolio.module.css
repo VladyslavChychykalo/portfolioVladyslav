@@ -1,0 +1,18 @@
+.portfolioWrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolioWrapper h3 {
+  color: #1da1f2;
+  font-size: 42px;
+}
+
+.portfolioWrapper ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-column-gap: 15px;
+}
