@@ -6,6 +6,7 @@
 }
 
 .portfolioWrapper h3 {
+  margin-bottom: 70px;
   color: #1da1f2;
   font-size: 42px;
 }
@@ -14,5 +15,27 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 350px);
-  grid-column-gap: 15px;
+  grid-column-gap: 30px;
+  grid-row-gap: 70px;
+}
+
+.portfolioWrapper ul li img {
+  width: 350px;
+}
+
+.topic {
+  margin-top: 10px;
+  font-size: 24px;
+  border-bottom: 1px dotted #000000;
+}
+
+.description {
+  line-height: 19px;
+  font-size: 14px;
+  margin: 14px 0;
+}
+
+.portfolioWrapper ul li a:nth-of-type(2) {
+  text-decoration: none;
+  color: #1da1f2;
 }
