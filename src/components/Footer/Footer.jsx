@@ -1,7 +1,8 @@
 import React from "react";
+import { footerWrapper } from "./Footer.module.css";
 
 const Footer = () => (
-  <div>
+  <div className={footerWrapper}>
     <h3>Contacts</h3>
     <ul>
       <li>
