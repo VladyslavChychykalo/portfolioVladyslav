@@ -14,13 +14,14 @@
 .portfolioWrapper ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 350px);
+  grid-template-columns: repeat(1, 310px);
   grid-column-gap: 30px;
   grid-row-gap: 70px;
 }
 
 .portfolioWrapper ul li img {
-  width: 350px;
+  /* width: 310px; */
+  max-width: 100%;
 }
 
 .topic {
