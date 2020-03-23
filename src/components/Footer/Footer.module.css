@@ -1,6 +1,7 @@
 .footerWrapper {
   background-color: #1da1f2;
   margin-top: 150px;
+  padding-left: 50px;
 }
 
 .footerWrapper h3 {
@@ -8,4 +9,18 @@
   font-size: 42px;
   color: #fff;
   text-align: center;
+}
+
+.footerWrapper ul {
+  list-style: none;
+}
+
+.footerWrapper ul li {
+  padding-bottom: 10px;
+}
+
+.socialLink {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
 }
