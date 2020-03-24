@@ -39,7 +39,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .headerWrapper p:nth-child(1) {
     font-size: 100px;
   }

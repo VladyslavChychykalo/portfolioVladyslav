@@ -52,3 +52,9 @@
     grid-template-columns: repeat(2, 310px);
   }
 }
+
+@media (min-width: 1200px) {
+  .portfolioWrapper ul {
+    grid-template-columns: repeat(3, 310px);
+  }
+}

@@ -55,6 +55,7 @@
   .personalInfoWrapper {
     flex-direction: row;
     align-items: flex-start;
+    padding: 0 100px;
   }
 
   .personalImage {
