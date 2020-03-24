@@ -50,3 +50,15 @@
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+@media (min-width: 768px) {
+  .personalInfoWrapper {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .personalImage {
+    height: 250px;
+    padding: 0 15px 0px 15px;
+  }
+}

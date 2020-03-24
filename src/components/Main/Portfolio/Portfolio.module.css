@@ -46,3 +46,9 @@
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+@media (min-width: 768px) {
+  .portfolioWrapper ul {
+    grid-template-columns: repeat(2, 310px);
+  }
+}
