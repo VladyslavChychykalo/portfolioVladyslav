@@ -7,6 +7,17 @@
   padding-left: 10px;
 }
 
+.footerWrapper div ul:nth-child(1) {
+  color: #fff;
+  font-size: 19px;
+}
+
+.footerWrapper div ul:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+
 .footerWrapper h3 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -27,4 +38,10 @@
   width: 30px;
   height: 30px;
   fill: #fff;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
 }

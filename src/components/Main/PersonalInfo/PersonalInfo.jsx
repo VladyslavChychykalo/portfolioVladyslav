@@ -19,12 +19,11 @@ const PersonalInfo = () => (
           <h3>About me:</h3>
           <p className={name}>Vladyslav Chychykalo</p>
           <p className={description}>
-            Frontend developer. Layout adaptive sites. After doing my testing my
-            project for cross-browser compatibility, adaptability, validity,
-            download speed. I own modern technologies: HTML, CSS (Flexbox, Grid,
-            Scss), JavaScript, BEM, Git, React, Redux, Scrum, Gulp, Webpack,
-            Npm. Implemented several projects. to order. Essential Skills I'm
-            sitting in one place.
+            Frontend developer. I do layout adaptive sites. Have knowledge in
+            modern technologies like: HTML, CSS (Flexbox, Grid, Scss),
+            JavaScript, BEM, Git, React, Redux, Scrum, Gulp, Webpack, Npm.
+            Implemented several projects. I don’t sit in one place, I constantly
+            develop my professional skills
           </p>
         </div>
 

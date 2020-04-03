@@ -43,7 +43,7 @@ const portfolio = [
     id: 5,
     link: "https://app-wallet-14.herokuapp.com/#/login",
     info:
-      "Website for budget it count your deoist and withdraw with statistic.Made in a small group of people: 6-frontend developers, 2-backend developers, 2-project managers. Used technologies: React(Formik, Yub, React-router dom, etc), Redux, PrivateBank API. I was team lead on this project my part was login and registration form",
+      "Website for budget it count your deposit and withdraw with statistic. Made in a small group of people: 6-frontend developers, 2-backend developers, 2-project managers. Used technologies: React(Formik, Yub, React-router dom, etc), Redux, PrivateBank API. I was team lead on this project my part was login and registration form",
     href: wallet,
     title: "Wallet"
   }
