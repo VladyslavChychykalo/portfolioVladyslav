@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolioVladyslav/static/css/main.ad278fe8.chunk.css",
+    "main.js": "/portfolioVladyslav/static/js/main.55391543.chunk.js",
+    "main.js.map": "/portfolioVladyslav/static/js/main.55391543.chunk.js.map",
+    "runtime-main.js": "/portfolioVladyslav/static/js/runtime-main.858c8c6c.js",
+    "runtime-main.js.map": "/portfolioVladyslav/static/js/runtime-main.858c8c6c.js.map",
+    "static/js/2.e45cb3fe.chunk.js": "/portfolioVladyslav/static/js/2.e45cb3fe.chunk.js",
+    "static/js/2.e45cb3fe.chunk.js.map": "/portfolioVladyslav/static/js/2.e45cb3fe.chunk.js.map",
+    "index.html": "/portfolioVladyslav/index.html",
+    "precache-manifest.12ba37081add99fcdc2a108a6383c4e2.js": "/portfolioVladyslav/precache-manifest.12ba37081add99fcdc2a108a6383c4e2.js",
+    "service-worker.js": "/portfolioVladyslav/service-worker.js",
+    "static/css/main.ad278fe8.chunk.css.map": "/portfolioVladyslav/static/css/main.ad278fe8.chunk.css.map",
+    "static/js/2.e45cb3fe.chunk.js.LICENSE.txt": "/portfolioVladyslav/static/js/2.e45cb3fe.chunk.js.LICENSE.txt",
+    "static/media/ev-hub.PNG": "/portfolioVladyslav/static/media/ev-hub.e93dc08e.PNG",
+    "static/media/facebook.422e7665.svg": "/portfolioVladyslav/static/media/facebook.422e7665.svg",
+    "static/media/filmoteka.PNG": "/portfolioVladyslav/static/media/filmoteka.c40382ed.PNG",
+    "static/media/github.a112a001.svg": "/portfolioVladyslav/static/media/github.a112a001.svg",
+    "static/media/Header.module.css": "/portfolioVladyslav/static/media/headerWrapper.fa1d9b71.jpg",
+    "static/media/imageFinder.PNG": "/portfolioVladyslav/static/media/imageFinder.661c381a.PNG",
+    "static/media/instagram.91a8e68d.svg": "/portfolioVladyslav/static/media/instagram.91a8e68d.svg",
+    "static/media/linkedin.89dcd695.svg": "/portfolioVladyslav/static/media/linkedin.89dcd695.svg",
+    "static/media/movieFinder.PNG": "/portfolioVladyslav/static/media/movieFinder.fcc97e40.PNG",
+    "static/media/personalImage.jpg": "/portfolioVladyslav/static/media/personalImage.a6f053d4.jpg",
+    "static/media/telegram.70fc78e9.svg": "/portfolioVladyslav/static/media/telegram.70fc78e9.svg",
+    "static/media/wallet.PNG": "/portfolioVladyslav/static/media/wallet.54a72067.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.858c8c6c.js",
+    "static/js/2.e45cb3fe.chunk.js",
+    "static/css/main.ad278fe8.chunk.css",
+    "static/js/main.55391543.chunk.js"
+  ]
+}
