@@ -24,7 +24,7 @@ export default class Menu extends Component {
   }
 
   listenScrollEvent = (e) => {
-    if (window.scrollY > 200) {
+    if (window.scrollY > window.outerHeight) {
       this.setState({ color: "black" });
     } else {
       this.setState({ color: "white" });
@@ -37,6 +37,8 @@ export default class Menu extends Component {
     this.setState({
       isOpen: false,
     });
+
+    // console.log(window);
   };
 
   toggleDropdown = () => {
