@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolioVladyslav/static/css/main.ad278fe8.chunk.css",
-    "main.js": "/portfolioVladyslav/static/js/main.55391543.chunk.js",
-    "main.js.map": "/portfolioVladyslav/static/js/main.55391543.chunk.js.map",
+    "main.css": "/portfolioVladyslav/static/css/main.f0167e95.chunk.css",
+    "main.js": "/portfolioVladyslav/static/js/main.ddced61f.chunk.js",
+    "main.js.map": "/portfolioVladyslav/static/js/main.ddced61f.chunk.js.map",
     "runtime-main.js": "/portfolioVladyslav/static/js/runtime-main.858c8c6c.js",
     "runtime-main.js.map": "/portfolioVladyslav/static/js/runtime-main.858c8c6c.js.map",
-    "static/js/2.e45cb3fe.chunk.js": "/portfolioVladyslav/static/js/2.e45cb3fe.chunk.js",
-    "static/js/2.e45cb3fe.chunk.js.map": "/portfolioVladyslav/static/js/2.e45cb3fe.chunk.js.map",
+    "static/js/2.df664f83.chunk.js": "/portfolioVladyslav/static/js/2.df664f83.chunk.js",
+    "static/js/2.df664f83.chunk.js.map": "/portfolioVladyslav/static/js/2.df664f83.chunk.js.map",
     "index.html": "/portfolioVladyslav/index.html",
-    "precache-manifest.12ba37081add99fcdc2a108a6383c4e2.js": "/portfolioVladyslav/precache-manifest.12ba37081add99fcdc2a108a6383c4e2.js",
+    "precache-manifest.e7d6943d84f64743b9bf3883f201b61f.js": "/portfolioVladyslav/precache-manifest.e7d6943d84f64743b9bf3883f201b61f.js",
     "service-worker.js": "/portfolioVladyslav/service-worker.js",
-    "static/css/main.ad278fe8.chunk.css.map": "/portfolioVladyslav/static/css/main.ad278fe8.chunk.css.map",
-    "static/js/2.e45cb3fe.chunk.js.LICENSE.txt": "/portfolioVladyslav/static/js/2.e45cb3fe.chunk.js.LICENSE.txt",
+    "static/css/main.f0167e95.chunk.css.map": "/portfolioVladyslav/static/css/main.f0167e95.chunk.css.map",
+    "static/js/2.df664f83.chunk.js.LICENSE.txt": "/portfolioVladyslav/static/js/2.df664f83.chunk.js.LICENSE.txt",
     "static/media/ev-hub.PNG": "/portfolioVladyslav/static/media/ev-hub.e93dc08e.PNG",
     "static/media/facebook.422e7665.svg": "/portfolioVladyslav/static/media/facebook.422e7665.svg",
     "static/media/filmoteka.PNG": "/portfolioVladyslav/static/media/filmoteka.c40382ed.PNG",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.858c8c6c.js",
-    "static/js/2.e45cb3fe.chunk.js",
-    "static/css/main.ad278fe8.chunk.css",
-    "static/js/main.55391543.chunk.js"
+    "static/js/2.df664f83.chunk.js",
+    "static/css/main.f0167e95.chunk.css",
+    "static/js/main.ddced61f.chunk.js"
   ]
 }
