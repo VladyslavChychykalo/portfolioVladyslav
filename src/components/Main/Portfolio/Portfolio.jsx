@@ -3,13 +3,13 @@ import {
   portfolioWrapper,
   description,
   topic,
-  border
+  border,
 } from "./Portfolio.module.css";
 import portfolio from "../../../storage/portfolio.js";
 
 const Portfolio = () => (
   <>
-    <div className={portfolioWrapper}>
+    <div id="portfolio" className={portfolioWrapper}>
       <h3>My portfolio</h3>
       <ul>
         {portfolio.map(({ id, link, info, href, title }) => (

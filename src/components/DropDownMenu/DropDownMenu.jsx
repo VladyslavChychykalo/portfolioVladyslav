@@ -10,7 +10,7 @@ export default class Menu extends Component {
 
   state = {
     isOpen: false,
-    color: "white"
+    color: "white",
   };
 
   componentDidMount() {
@@ -23,7 +23,7 @@ export default class Menu extends Component {
     window.removeEventListener("scroll", this.listenScrollEvent);
   }
 
-  listenScrollEvent = e => {
+  listenScrollEvent = (e) => {
     if (window.scrollY > 200) {
       this.setState({ color: "black" });
     } else {
@@ -31,16 +31,16 @@ export default class Menu extends Component {
     }
   };
 
-  handleKeyPress = e => {
+  handleKeyPress = (e) => {
     if (e.code !== `Escape`) return;
 
     this.setState({
-      isOpen: false
+      isOpen: false,
     });
   };
 
   toggleDropdown = () => {
-    this.setState(state => ({ isOpen: !state.isOpen }));
+    this.setState((state) => ({ isOpen: !state.isOpen }));
   };
 
   render() {
@@ -66,15 +66,19 @@ export default class Menu extends Component {
             <div className={styles.dropdown}>
               <ul className={styles.list}>
                 <li>
-                  <h4>HTML/CSS</h4>
+                  <h4>Header</h4>
+                  <DropDownItem category="Header" />
+                </li>
+                <li>
+                  <h4>About Me</h4>
                   <DropDownItem category="About me" />
                 </li>
                 <li>
-                  <h4>JS</h4>
+                  <h4>Portfolio</h4>
                   <DropDownItem category="Portfolio" />
                 </li>
                 <li>
-                  <h4>React</h4>
+                  <h4>Contacts</h4>
                   <DropDownItem category="Contacts" />
                 </li>
               </ul>

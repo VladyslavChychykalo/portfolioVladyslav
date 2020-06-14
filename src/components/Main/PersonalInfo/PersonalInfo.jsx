@@ -5,13 +5,13 @@ import {
   skillsList,
   description,
   name,
-  border
+  border,
 } from "./PersonalInfo.module.css";
 import personalImg from "../../../assets/img/personalImage.jpg";
 
 const PersonalInfo = () => (
   <>
-    <div className={personalInfoWrapper}>
+    <div id="about_me" className={personalInfoWrapper}>
       <img className={personalImage} src={personalImg} alt="" />
 
       <div>

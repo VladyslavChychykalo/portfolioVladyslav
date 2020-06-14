@@ -7,7 +7,7 @@ import { ReactComponent as Facebook } from "../../assets/svg/facebook.svg";
 import { ReactComponent as Instagram } from "../../assets/svg/instagram.svg";
 
 const Footer = () => (
-  <div className={footerWrapper}>
+  <div id="contacts" className={footerWrapper}>
     <h3>Contacts</h3>
     <div>
       <ul>

@@ -6,6 +6,7 @@ html {
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
   background-color: #ffefd5;
+  scroll-behavior: smooth;
 }
 
 *,
