@@ -37,8 +37,6 @@ export default class Menu extends Component {
     this.setState({
       isOpen: false,
     });
-
-    // console.log(window);
   };
 
   toggleDropdown = () => {
@@ -69,19 +67,31 @@ export default class Menu extends Component {
               <ul className={styles.list}>
                 <li>
                   <h4>Header</h4>
-                  <DropDownItem category="Header" />
+                  <DropDownItem
+                    onClose={this.toggleDropdown}
+                    category="Header"
+                  />
                 </li>
                 <li>
                   <h4>About Me</h4>
-                  <DropDownItem category="About me" />
+                  <DropDownItem
+                    onClose={this.toggleDropdown}
+                    category="About me"
+                  />
                 </li>
                 <li>
                   <h4>Portfolio</h4>
-                  <DropDownItem category="Portfolio" />
+                  <DropDownItem
+                    onClose={this.toggleDropdown}
+                    category="Portfolio"
+                  />
                 </li>
                 <li>
                   <h4>Contacts</h4>
-                  <DropDownItem category="Contacts" />
+                  <DropDownItem
+                    onClose={this.toggleDropdown}
+                    category="Contacts"
+                  />
                 </li>
               </ul>
             </div>

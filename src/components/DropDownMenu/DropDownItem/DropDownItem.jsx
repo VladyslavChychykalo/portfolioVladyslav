@@ -25,12 +25,12 @@ const dropDownOptions = [
   },
 ];
 
-const DropDownItem = ({ category }) => (
+const DropDownItem = ({ category, onClose }) => (
   <ul className={styles.item}>
     {dropDownOptions
       .filter((item) => item.title === category)
       .map((item) => (
-        <li key={item.id}>
+        <li onClick={onClose} key={item.id}>
           <a href={item.linkPage}>{item.title}</a>
         </li>
       ))}
